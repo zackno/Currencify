@@ -22,7 +22,7 @@ foreach ($kur as $currency) {
 	}
 }
 
-// Functions as a Class
+// Functions as Class
 class TraceCode{
 	//Rates are stored in db for further use in the future
 	public function addDb_Rate($currency, $rate){
